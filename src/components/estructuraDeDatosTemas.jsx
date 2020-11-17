@@ -11,7 +11,9 @@ const Eta = ()=>{
             </div>
             <div className='container mx-auto mb-10'>
                 <div className='text-5xl font-bold mt-5 text-gray-800'>Estructuras de Datos</div>
-                <span className='mt-5'>Temas de los que disponemos</span>
+                <span className='mt-5'>Las estructuras de datos es una rama de las ciencias de la computación que estudia y aplica diferentes
+formas de organizar información dentro de una aplicación, para manipular, buscar e insertar estos
+datos de manera eficiente.</span>
                 <div className='mt-10 flex flex-col md:flex-row gap-6 fade items-center'>
                     <Link to='/grafos-arbol'>
                 <div className='border p-4 cursor-pointer w-64 '> 

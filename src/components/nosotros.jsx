@@ -58,7 +58,7 @@ const Nosotros = ()=>{
             <div>Speech busca aprovechar todo la ingeniería de los mejores frameworck utilizado en la actualidad para hacer presentaciones más dinámicas.</div>
             </div>
             <div className='flow-root mt-20 grid place-content-center'>
-            <a href='#nosotros' class="font-bold py-2 px-5 rounded fade-loop">
+            <a href='#nosotros' class="font-bold py-2 px-5 rounded ">
             <svg class="fill-current  h-3 w-6 flex items-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M23.245 4l-11.245 14.374-11.219-14.374-.781.619 12 15.381 12-15.391-.755-.609z"/></svg>
             <svg class="fill-current  h-3 w-6 flex items-center" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M23.245 4l-11.245 14.374-11.219-14.374-.781.619 12 15.381 12-15.391-.755-.609z"/></svg>
             </a>
@@ -69,7 +69,7 @@ const Nosotros = ()=>{
           <div>
                <div className='text-3xl font-black text-center text-blue-1000 '>Miembros</div>
           <div className='grid grid-cols-1 md:grid-cols-3 gap-0 md:gap-3 item-center w-full transform scale-75 md:scale-100'>
-              {perfil('https://instagram.fpac1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/84263472_1136631100029423_4616485155930199324_n.jpg?_nc_ht=instagram.fpac1-1.fna.fbcdn.net&_nc_ohc=CRQk-PeP1OsAX9_TE99&_nc_tp=25&oh=4f991aecdfd1d8e2bf882adbee306f27&oe=5FDBF4F6','Richard Jahir Quiros','sistema computacionales','https://facebook.com','https://facebook.com','https://facebook.com')}
+          {perfil('https://instagram.fpac1-1.fna.fbcdn.net/v/t51.2885-19/s150x150/84263472_1136631100029423_4616485155930199324_n.jpg?_nc_ht=instagram.fpac1-1.fna.fbcdn.net&_nc_ohc=CRQk-PeP1OsAX9_TE99&_nc_tp=25&oh=4f991aecdfd1d8e2bf882adbee306f27&oe=5FDBF4F6','Richard Jahir Quiros','sistema computacionales','https://www.facebook.com/richard.quiroz.524/','https://www.instagram.com/quiros7255/','https://github.com/RichardQuiros')}
               {perfil('https://www.tech101.in/wp-content/uploads/2018/07/blank-profile-picture.png','texto de ejemplo','inserte texto','https://facebook.com','https://facebook.com','https://facebook.com')}
               {perfil('https://www.tech101.in/wp-content/uploads/2018/07/blank-profile-picture.png','texto de ejemplo','inserte texto','https://facebook.com','https://facebook.com','https://facebook.com')}
           </div>

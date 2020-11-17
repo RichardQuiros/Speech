@@ -25,7 +25,7 @@ const Nav = ()=>{
             : null
             }</div>
             {link('/nosotros','nosotros')}
-            <a  href='https://github.com/' class="im im-github transform scale-100 hover:scale-110 transition duration-150 ease-in-out"> </a>
+            <a  href='https://github.com/RichardQuiros/Speech' class="im im-github transform scale-100 hover:scale-110 transition duration-150 ease-in-out"> </a>
             </div>
         </Fragment>
     )
