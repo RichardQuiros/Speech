@@ -17,7 +17,7 @@ const Nosotros = ()=>{
     const perfil = (img,name,title,facebook,intagram,github)=>(
         <div className='w-full md:mt-0 mt-8 p-5 bg-white shadow-lg transform scale-100 md:scale-75 grid grid-cols-4 md:grid-cols-1'>
         <div className='flow-root  grid place-content-center'>
-        <img className='rounded-full' width='200px' src={img}/>
+        <img alt='perfil' className='rounded-full' width='200px' src={img}/>
       </div>
     <div className='mt-5 text-center'>{name}</div>
       <div className='mt-5 text-center'>{title}
