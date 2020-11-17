@@ -92,7 +92,7 @@ const Nosotros = ()=>{
 </g>
 </svg>
 
-<div className='absolute right-0 bottom-0 m-5 text-white'><a href='#about' class="im im-angle-up-circle"/></div></div>} />
+<div className='absolute right-0 bottom-0 m-5 text-white'><a href='#about' class="im im-angle-up-circle"> </a></div></div>} />
         </div>
       );
     }}
