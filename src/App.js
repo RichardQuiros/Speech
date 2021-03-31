@@ -22,7 +22,7 @@ const renderLoader = () => <div className="h-screen w-screen grid place-items-ce
   </div>
 const App = () => {
 useState(()=>{
-   ReactGA.initialize(process.env.GA_ID || '');
+   ReactGA.initialize(process.env.REACT_APP_WEBSITE_GA_ID || '');
 },[])
 	return (
 		<Fragment>

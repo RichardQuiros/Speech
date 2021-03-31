@@ -5,8 +5,8 @@ const Head = ({
 	title = "📢Speech | template React & Tailwind",
 	description = "Speech is a template that seeks to break paradigms with presentations, able to create pretentions with the best technologies!",
 	url = process.env.REACT_APP_WEBSITE_URL || "http://localhost:3000/",
-	image = process.env.REACT_APP_WEBSITE_URL ?`${process.env.URL}/Speech.jpg` : "http://localhost:3000/Speech.jpg",
-	googleVerification = process.env.GOOGLE_VERIFICATION || "",
+	image = process.env.REACT_APP_WEBSITE_URL ?`${process.env.REACT_APP_WEBSITE_URL}/Speech.jpg` : "http://localhost:3000/Speech.jpg",
+	googleVerification = process.env.REACT_APP_WEBSITE_GOOGLE_VERIFICATION || "",
 	children
 }) => {
 	return (
