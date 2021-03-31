@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Speech",
+  "name": "Speech | template React & Tailwind",
   "icons": [
     {
       "src": "favicon.ico",
