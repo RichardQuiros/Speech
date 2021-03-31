@@ -1,5 +1,6 @@
 import './App.css'
-import React, { Fragment, lazy, Suspense} from "react";
+import React, { Fragment, lazy, Suspense, useState} from "react";
+import ReactGA from 'react-ga'
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const Head =  lazy(()=> import('./components/Head_.jsx'))
@@ -20,6 +21,9 @@ const renderLoader = () => <div className="h-screen w-screen grid place-items-ce
 </button>
   </div>
 const App = () => {
+useState(()=>{
+   ReactGA.initialize(process.env.GA_ID || '');
+},[])
 	return (
 		<Fragment>
 	  <Suspense fallback={renderLoader()}>
