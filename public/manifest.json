@@ -1,12 +1,8 @@
 {
   "short_name": "Speech",
   "name": "Speech | template React & Tailwind",
+  "description": "Speech is a template that seeks to break paradigms with presentations, able to create pretentions with the best technologies!",
   "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
     {
       "src": "logo192.png",
       "type": "image/png",
@@ -18,8 +14,8 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "http://localhost:3000/",
   "display": "standalone",
-  "theme_color": "#000000",
+  "theme_color": "#0099FF",
   "background_color": "#ffffff"
 }

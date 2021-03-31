@@ -1,13 +1,11 @@
-import React, { Fragment } from "react";
+import React from "react";
 const Notfound = () => {
 	return (
-		<Fragment>
-			<div className="bg-blue-1000 text-white">
-			</div>
+			<div className="bg-blue-1000 text-white w-screen h-screen grid place-items-center ">
 			<svg
 				xmlns="http://www.w3.org/2000/svg"
 				data-name="Layer 1"
-				width="1074.392"
+				width="100vw"
 				height="584.231"
 				viewBox="0 0 1074.392 584.231"
 			>
@@ -294,7 +292,7 @@ const Notfound = () => {
 				<circle cx="582.946" cy="355.1155" r="5" fill="#00b0ff" opacity="0.3" />
 				<circle cx="460.946" cy="355.1155" r="5" fill="#00b0ff" opacity="0.3" />
 			</svg>
-		</Fragment>
+	  </div>
 	);
 };
 

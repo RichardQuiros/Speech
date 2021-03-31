@@ -11,7 +11,7 @@ const Nav = () => {
 	);
 	return (
 		<Fragment>
-			<a class="skip-link" href="#maincontent">
+			<a className="skip-link" href="#maincontent">
 				Skip to main
 			</a>
 			<div className="bg-blue-1000 w-full top-0 fixed z-50 text-white">
