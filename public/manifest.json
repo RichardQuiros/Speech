@@ -14,7 +14,7 @@
       "sizes": "512x512"
     }
   ],
-  "start_url": "http://localhost:3000/",
+  "start_url": "https://speech-awesome.netlify.app/",
   "display": "standalone",
   "theme_color": "#0099FF",
   "background_color": "#ffffff"
