@@ -13,7 +13,7 @@ const Head = ({
 	  <HelmetProvider>
 		<Helmet>
 			<meta charset="utf-8" />
-			<meta data-n-head="1" name="google-site-verification" content={googleVerification}/>
+			<meta name="google-site-verification" content={googleVerification}/>
 			{/*<!-- Primary Meta Tags -->*/}
 			<title>{title}</title>
 			<meta name="title" content={title} />
